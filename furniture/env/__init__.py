@@ -39,7 +39,6 @@ register(
         "furniture_name": "swivel_chair_0700",
         "background": "Industrial",
         "port": 1050,
-        "unity": False,
     },
 )
 
