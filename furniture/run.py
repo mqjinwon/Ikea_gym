@@ -1,7 +1,7 @@
-from method.main import run
-import env
-from config import create_parser
-from method.config import add_method_arguments
+from .method.main import run
+from . import env
+from .config import create_parser
+from .method.config import add_method_arguments
 
 
 if __name__ == "__main__":
