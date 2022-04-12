@@ -1,0 +1,17 @@
+numpy
+scipy
+wandb
+colorlog
+tqdm
+h5py
+ipdb
+opencv-python
+moviepy
+mpi4py
+gym
+mujoco-py
+#torch
+#torchvision
+absl-py
+git+https://github.com/deepmind/dm_control.git
+git+https://github.com/1nadequacy/dmc2gym.git
