@@ -9,9 +9,9 @@ opencv-python
 moviepy
 mpi4py
 gym
-mujoco-py
-#torch
-#torchvision
+mujoco-py==2.0.2.5
+# torch==1.11.0
+# torchvision==0.12.0
 absl-py
 git+https://github.com/deepmind/dm_control.git
 git+https://github.com/1nadequacy/dmc2gym.git

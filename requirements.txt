@@ -9,7 +9,7 @@ imageio
 imageio-ffmpeg
 ipdb
 moviepy
-mujoco-py
+mujoco-py==2.0.2.5
 opencv-python
 openvr
 pybullet==1.9.5
