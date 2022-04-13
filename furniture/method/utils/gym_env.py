@@ -76,8 +76,7 @@ class GymWrapper(gym.Wrapper):
         self._camera_id = camera_id
         self._channels_first = channels_first
         self._frame_skip = frame_skip
-        self.max_episode_steps = self.env.unwrapped.env.max_episode_steps // frame_skip
-        # self.max_episode_steps = self.env._max_episode_steps // frame_skip
+        self.max_episode_steps = self.env._max_episode_steps // frame_skip
         self._return_state = return_state
 
         if from_pixels:
