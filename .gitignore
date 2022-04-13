@@ -5,6 +5,7 @@
 
 # Log
 furniture-unity/Assets/StreamingAssets
+log
 
 # Vim
 .*.s[a-w][a-z]
